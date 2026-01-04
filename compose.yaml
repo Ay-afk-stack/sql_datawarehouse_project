@@ -10,6 +10,7 @@ services:
       POSTGRES_DB: data_warehouse
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./datasets:/datasets
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U db_user -d sql_db"]
       interval: 30s
