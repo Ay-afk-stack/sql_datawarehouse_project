@@ -1,0 +1,16 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "sql_data_warehouse_project",
+      "group": "data_warehouse_project",
+      "database": "data_warehouse",
+      "username": "db_user",
+      "password": "db_pass"
+    }
+  ]
+}
