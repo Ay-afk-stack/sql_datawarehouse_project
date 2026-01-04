@@ -3,7 +3,7 @@
     Creating Bronze Layer Tables
 ===========================
 Script Purpose:
-    This script creates a Tables following 
+    This script creates a Tables following.
     Bronze layer rule i.e. <layer_name>.<sourcesystem>_<entity | table_name>
 */
 
