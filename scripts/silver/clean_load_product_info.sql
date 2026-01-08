@@ -1,5 +1,5 @@
 -- Full Load(Truncate & Insert) into the silver schema database
-TRUNCATE TABLE IF EXISTS silver.crm_prd_info;
+TRUNCATE TABLE silver.crm_prd_info;
 
 INSERT INTO silver.crm_prd_info (
 	prd_id,
