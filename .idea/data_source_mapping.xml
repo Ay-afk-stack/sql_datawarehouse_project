@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/scripts/bronze/proc_load_bronze.sql" value="86b3926f-87aa-465b-81b5-50ba5867a40e" />
+    <file url="file://$PROJECT_DIR$/scripts/init_schema.session.sql" value="86b3926f-87aa-465b-81b5-50ba5867a40e" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/proc_load_silver.sql" value="86b3926f-87aa-465b-81b5-50ba5867a40e" />
+  </component>
+</project>
