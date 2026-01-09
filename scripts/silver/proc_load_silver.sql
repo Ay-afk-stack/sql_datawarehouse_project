@@ -1,3 +1,5 @@
+set search_path TO silver;
+
 CREATE OR REPLACE PROCEDURE silver.load_silver()
 LANGUAGE plpgsql
 AS $$

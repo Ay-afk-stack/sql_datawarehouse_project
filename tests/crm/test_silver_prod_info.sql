@@ -1,3 +1,5 @@
+SET search_path TO silver;
+
 -- Quality Checks
 
 -- Check for Nulls or Duplicates in Primary Key

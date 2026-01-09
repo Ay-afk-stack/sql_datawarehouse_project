@@ -1,4 +1,4 @@
-
+SET search_path TO silver;
 -- Check for Invalid Date
 SELECT
 NULLIF(sls_due_dt,0) sls_due_dt

@@ -6,7 +6,7 @@ Script Purpose:
     This script creates a Tables following.
     Bronze layer rule i.e. <layer_name>.<sourcesystem>_<entity | table_name>
 */
-
+SET search_path TO bronze;
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info (
     cst_id INT,

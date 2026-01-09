@@ -6,7 +6,7 @@ Script Purpose:
     This script creates a Tables following.
     silver layer rule i.e. <layer_name>.<sourcesystem>_<entity | table_name>
 */
-
+SET search_path TO silver;
 DROP TABLE IF EXISTS silver.crm_cust_info;
 CREATE TABLE silver.crm_cust_info (
     cst_id INT,

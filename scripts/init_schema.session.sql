@@ -6,13 +6,13 @@ Script Purpose:
     This script creates a new schema
 */
 
-DROP SCHEMA IF EXISTS bronze;
+DROP SCHEMA IF EXISTS bronze CASCADE;
 CREATE SCHEMA bronze;
 
-DROP SCHEMA IF EXISTS silver;
+DROP SCHEMA IF EXISTS silver CASCADE;
 CREATE SCHEMA silver;
 
-DROP SCHEMA IF EXISTS gold;
+DROP SCHEMA IF EXISTS gold CASCADE;
 CREATE SCHEMA gold;
 
 

@@ -7,7 +7,7 @@ Script Purpose:
     This script also do full load in the table to update new datas in it.
     This script also have a Stored Procedure for quick execution and calculates the total duration of the process.
 */
-
+SET search_path TO bronze;
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
     LANGUAGE plpgsql
 AS
